@@ -127,12 +127,10 @@
                 <li>Ability to filter different clothing items</li>
                 <li>Ability to favorite a clothing item</li>
                 <li>Ability to place a clothing item in a shopping cart</li>
-                <li>
-                    Ability to place a favorited item inside of the shopping cart
-                </li>
-                <li>Ability to sort favorited items by price</li>
-                <li>Reset filter functionality</li>
-                <li>Ability to place all favorited items into the shopping cart</li>
+                <li>Ability to sort items by price</li>
+                <li>Ability to filter items by price</li>
+                <li>Ability to filter items by whether they are a top or a bottom piece</li>
+                <li>Reset filter/sorting functionality</li>
             </ul>
             <br>
             <p>One clarification that I wanted to make is that the favorited list and the shopping cart are separate. There could be items that 
@@ -157,7 +155,7 @@
             <ul>
                 <li>
                     <span class="underline">Filter</span>: For filtering, you will be able to filter based off certain criteria which will include filtering 
-                    for just top pieces (i.e., shirts, sweatshirts), bottoms, (i.e., pants, shorts), and hats. 
+                    for just top pieces (i.e., shirts, sweatshirts) and for bottoms(i.e., pants, shorts). Additionally, we can filter based off of price!
                 </li>
                 <li>
                     <span class="underline">Sort</span>: For sorting, you will be able to sort based off price, so you will be able to sort via the highest price
@@ -174,10 +172,20 @@
         <div class="context-paragraph">
             <p>Feel free to click below to check out my clothing apparel store!</p>
             <div class="react-contain">
-                <a href="www.google.com" target="_blank">
+                <a href="https://development-flax.vercel.app/" target="_blank">
                     <button class="react-button">Clothing Apparel React Application</button>
                 </a>
             </div>
+            <span class="underline">Clarifications</span>: Here are some clarifications of the application below: 
+            <ul>
+                <li>First, to favorite an item, you click on the heart icon on the specific item card. This change will be reflected in the favorites aggregator.</li>
+                <li>Second, when filtering via price, whenever you type in a price, the items that are <span class="underline">less than or equal</span> to the 
+                price inputted will be outputted in the items on the left. </li>
+                <li>Third, when filtering, it is possible to filter via both price and tops/bottoms. However, it is not possible to filter for both tops and bottoms as 
+                    it is not possible for an item to be both a top piece and a bottom piece in this store. Therefore, if you click on filter tops and then filter botoms or vice 
+                    versa, nothing will show up on the screen. To filter tops and then filter bottoms, you need to reset in between to go back to an unfiltered state. 
+                </li>
+            </ul>
         </div>
 
     <section id="p3" class="p3">
